@@ -1,0 +1,2 @@
+/// @description shotcooldown
+CanShoot = true;
