@@ -17,6 +17,9 @@ if !Back
 		case(SHOOT):
 			sprite_index = sPlayerIdleAttackFront;
 		break;
+		case(PARRY):
+			sprite_index = sPlayerIdleFront;
+		break;
 	}
 }
 else
@@ -34,6 +37,9 @@ else
 		break;
 		case(SHOOT):
 			sprite_index = sPlayerIdleAttackBack;
+		break;
+		case(PARRY):
+			sprite_index = sPlayerIdleFront;
 		break;
 	}	
 }

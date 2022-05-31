@@ -163,7 +163,12 @@ if jump
 	sprite_index = sPlayerJump;
 }
 
-if ((state = IDLE) || (state = JUMP) || (state = RUN))
+if instance_exists(oParry)
+{
+	state = PARRY;
+}
+
+if ((state = IDLE) || (state = JUMP) || (state = RUN) || (state = SHOOT))
 {
 	x += hMove;
 	y += vMove;

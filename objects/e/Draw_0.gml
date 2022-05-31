@@ -1,5 +1,5 @@
 draw_self();
-draw_text(x,y-30,depth);
+
 if(flashAlpha > 0)
 {
 	shader_set(shFlash);
